@@ -42,33 +42,6 @@ function selectDriversForInput() {
     }
 }
 
-function selectBusesForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT bus_id, bus_name FROM `Bus` order by bus_name");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
-
-function selectRoutesForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT route_id FROM `Route` order by route_id");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
 
 function insertShifts($did, $bid, $rid, $sDays, $sStart, $sEnd) {
     try {
