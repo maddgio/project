@@ -91,3 +91,7 @@ include "view-header.php";
         }
     </script>
 
+$routes = selectRoutes();
+include "view-routes.php";
+include "view-footer.php";
+?>
