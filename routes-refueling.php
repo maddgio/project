@@ -5,8 +5,6 @@ require_once("model-routes.php");
 $pageTitle = "Routes";
 include "view-header.php";
 
-
-<div class="row">
   <div class="col">
     <h3>Route Refernece</h3>
   </div>
