@@ -26,7 +26,10 @@
           <a class="nav-link" href="buses.php">Buses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="drivers-with-shifts.php">Driver Shifts and Routes</a>
+          <a class="nav-link" href="drivers-with-shifts.php">Driver Shifts and Weekly Pay</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="routes-refueling.php">Routes and Refueling</a>
         </li>
       </ul>
     </div>
