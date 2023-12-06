@@ -123,6 +123,8 @@
   </table>
 </div>
 
+<br></br>
+
 <h1>Bus Route Calculator</h1>
 
     <label for="selectRoute">Select Route:</label>
@@ -154,8 +156,10 @@
         }
     </script>
 
-<div id="map"></div>
+<br></br>
 
+<div id="map"></div>
+<h3>Map of Route</h3>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
     <script>
